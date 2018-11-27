@@ -17,4 +17,4 @@ To safely shut your Raspberry Pi down, press and hold the shutdown button for th
 
 Tested against Raspbain Stretch Lite. It should also work with the full Raspbian Stretch but it makes more sense to use the Lite version as you will no doubt want to run this headless...
 
-<img src="pythonShutdownWiring_bb.png" alt="Wiring diagram for the python shutdown script" width="50%" height="50%" />
+<img src="pythonPlayShutdownWiring_bb.png" alt="Wiring diagram for the python play and shutdown script" width="50%" height="50%" />
