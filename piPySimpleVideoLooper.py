@@ -23,7 +23,7 @@ PLAY = Button(14)
 mounts = ["/media/usb7", "/media/usb6", "/media/usb5", "/media/usb4", "/media/usb3", "/media/usb2", "/media/usb1", "/media/usb0", "/media/usb"]
 
 # define usbmount incase we don't find a usbdrive
-usbmount = os.getcwd()
+usbmount = '/piPySimpleVideoLooper'
 
 for i in mounts:
     if os.path.ismount(i):
