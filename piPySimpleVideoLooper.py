@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# A simple video looper for teh Raspberry Pi using Python
+# A simple video looper for the Raspberry Pi using Python
 #
 # author: Jon Witts
 # license: GPL-3.0, see LICENSE included in this package
@@ -30,6 +30,9 @@ for i in mounts:
         usbmount=i
 
 PATH = usbmount
+
+# define filePlay incase we don't find a file
+filePlay = PATH + "noVideo.mp4"
 
 # now search the drive for mp4 and avi files
 for file in os.listdir(PATH):
