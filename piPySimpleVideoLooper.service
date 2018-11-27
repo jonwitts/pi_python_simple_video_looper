@@ -1,0 +1,10 @@
+[Unit]
+Description=Pi Python Simple Video Looper
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/piPySimpleVideoLooper/piPySimpleVideoLooper.py
+
+[Install]
+WantedBy=multi-user.target
