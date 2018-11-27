@@ -62,6 +62,11 @@ systemctl daemon-reload
 systemctl enable piPySimpleVideoLooper.service
 systemctl enable pythonShutdown.service
 
+# copy our noVideo file
+echo "Copy the noVideo holding file"
+echo "=========================="
+wget -N https://raw.githubusercontent.com/jonwitts/pi_python_simple_video_looper/master/noVideo.mp4
+
 # done
 echo "Done. Rebooting now"
 echo "=========================="
