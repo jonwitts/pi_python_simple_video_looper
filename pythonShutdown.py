@@ -5,8 +5,8 @@
 # author:  Jon Witts
 # license: GPL-3.0, see LICENSE included in this package
 # 
-# A Bash Video Looper for the Raspberry Pi and a Python3 shutdown button and LED indicator
-# https://github.com/jonwitts/pi_simple_video_looper
+# A Python Video Looper for the Raspberry Pi and a Python3 play and shutdown button and LED indicator
+# https://github.com/jonwitts/pi_python_simple_video_looper
 
 from gpiozero import Button, LED
 from signal import pause
